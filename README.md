@@ -66,6 +66,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 Initialize the laravel project
 
--Now run the migrations
--Change the creadetials for database as well as for twitter app
--Now use twitter login
+- Now run the migrations
+- Change the creadetials for database as well as for twitter app
+- Now use twitter login
