@@ -52,5 +52,8 @@
                 </x-button>
             </div>
         </form>
+        <a href="{{ url('/login/twitter') }}" class="twitter-button">
+            {{ __('Login with Twitter') }}
+        </a>
     </x-auth-card>
 </x-guest-layout>

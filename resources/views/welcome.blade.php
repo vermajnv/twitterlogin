@@ -28,9 +28,6 @@
                         <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
                     @else
                         <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
-                        <a href="{{ url('/login/twitter') }}" class="btn btn-success">
-                            {{ __('Login with Twitter') }}
-                        </a>
                         @if (Route::has('register'))
                             <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
                         @endif
